@@ -30,7 +30,7 @@
 		}
 	},
 	"hostRequirements": {
-		"cpus": 2,
-		"memory": "8gb"
+		"cpus": 1,
+		"memory": "2gb"
 	}
 }
