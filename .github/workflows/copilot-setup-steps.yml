@@ -14,11 +14,11 @@ jobs:
 
       - name: setup ROS environment
         uses: ros-tooling/setup-ros@v0.7
-        with:
-          required-ros-distributions: humble
 
       - name: install workspace dependencies
         run: |
+          apt-get update
+          apt-get install ros-humble-base
           source /opt/ros/humble/setup.bash
           rosdep update --rosdistro humble
           rosdep install --from-paths src --ignore-src -r -y
