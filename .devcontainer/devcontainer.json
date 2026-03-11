@@ -14,7 +14,7 @@
 	},
 
 	"postStartCommand": ".devcontainer/post-create.sh",
-
+    "updateRemoteUserUID": true,
 	"remoteUser": "root",
 	"customizations": {
 		"vscode": {
