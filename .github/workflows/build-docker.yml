@@ -8,8 +8,7 @@ on:
     tags:
       - "v*"
   pull_request:
-    branches: ["main"]
-  # permit manual trigger as well
+
   workflow_dispatch:
 
 jobs:

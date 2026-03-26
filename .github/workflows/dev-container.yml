@@ -10,6 +10,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '.devcontainer/**'
+      - '.github/workflows/dev-container.yml'
 
 jobs:
   build_devcontainer:
