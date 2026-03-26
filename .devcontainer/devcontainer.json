@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "ROS 2 Humble Devcontainer",
+	"name": "ROS 2 Devcontainer",
 	"build": {
 		"dockerfile": "./Dockerfile",
 		"args": {
