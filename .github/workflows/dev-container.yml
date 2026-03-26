@@ -1,9 +1,12 @@
 name: 'devcontainer CI' 
 on:
   workflow_dispatch:
+
   pull_request:
-    branches:
-      - main
+    paths:
+      - '.devcontainer/**'
+      - '.github/workflows/dev-container.yml'
+
   push:
     branches:
       - main
